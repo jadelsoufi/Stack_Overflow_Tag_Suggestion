@@ -47,3 +47,68 @@ Requête utilisée pour le projet:
 ![image](https://user-images.githubusercontent.com/76253068/170726947-dbb81800-5f11-4968-ac1b-8116b1869705.png)
 
 ## Modélisation: méthode non-supervisée
+
+![image](https://user-images.githubusercontent.com/76253068/171588016-fc773006-df44-47ce-9488-8b50e35ef3e2.png)
+
+![image](https://user-images.githubusercontent.com/76253068/171588031-df3b310b-ed07-4dfc-b1d6-6c3a09f47a01.png)
+
+![image](https://user-images.githubusercontent.com/76253068/171588066-27f1d9d9-636d-49aa-8de6-967978085b94.png)
+
+### Multiplications matricielles
+
+![image](https://user-images.githubusercontent.com/76253068/171588681-9eba9650-a0ed-49e3-aab0-311b7803ad97.png)
+
+
+### Test de la matrice de probabilité post/probabilité des mots
+
+![image](https://user-images.githubusercontent.com/76253068/171588405-d3b09483-7769-4d24-bb7f-7a83fdfae2e6.png)
+
+## Modélisation: méthode supervisée
+
+### TFIDF
+
+![image](https://user-images.githubusercontent.com/76253068/171589311-e500f413-0429-4237-abf8-746823cd3b22.png)
+
+### PCA
+
+![image](https://user-images.githubusercontent.com/76253068/171590005-335a444a-b971-411e-866a-924d2be4814f.png)
+
+### GridSearchCV
+
+![image](https://user-images.githubusercontent.com/76253068/171590374-d0cdf027-c13b-4441-9084-fb9598454743.png)
+
+![image](https://user-images.githubusercontent.com/76253068/171590405-bbedfe1d-3b54-48dc-94b8-1e6cbbf143dd.png)
+
+### Test et Evaluation avec Jaccard Score
+
+![image](https://user-images.githubusercontent.com/76253068/171590530-c745b8e7-2556-4c2b-bf98-c680b754a14c.png)
+
+
+## Word2Vec
+
+![image](https://user-images.githubusercontent.com/76253068/171590654-b827dee7-12fe-45f0-bac3-f031d2202886.png)
+
+## BERT
+
+![image](https://user-images.githubusercontent.com/76253068/171590758-dc1c9661-0161-4b71-ace6-0b12bef5bbff.png)
+
+## USE
+
+![image](https://user-images.githubusercontent.com/76253068/171590862-58df97df-e96b-4db3-ab5a-b481e98e5fc2.png)
+
+## Evaluation Word2Vec/BERT/USE
+
+![image](https://user-images.githubusercontent.com/76253068/171590912-54fd6b35-2f76-4ea8-a9c3-4009aac6f6c4.png)
+
+## Conclusion
+
+Approche Supervisée privilégiée
+
+Modèle final sélectionné: OneVsRest SVC avec modélisation BERT
+
+Pistes d’améliorations:
+- Augmenter le nombre de posts
+- Modifier le nombre de labels (tags)
+- Effectuer un gridsearch sur les approches Word2Vec, BERT et USE
+
+
