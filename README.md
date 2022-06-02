@@ -1,5 +1,7 @@
-# Stackoverflow_Tag_Suggestion
+# Stack Overflow Tag Suggestion
 Déployer une application de suggestion de tag pour les utilisateurs de Stack Overflow
+
+Lien de l'application : https://nlp-application-5234.herokuapp.com/
 
 ## Problématique
 
